@@ -1,6 +1,6 @@
-# Initial VueJS, Tailwind CSS & ViteJS boilerplate
+# Default GMail UI Sample Page
 
-This is my own initial VueJS, Tailwind CSS and ViteJS boilerplate with my current and most used settings ready to use.
+My name is Fabio Duarte, I'm a junior frontend developer. I just want to show what I've learned since mid-2020. This is a recreation of the default GMail UI page using Tailwind CSS and VueJS.
 
 #### All suggestions are welcome!
 
