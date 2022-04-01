@@ -3,6 +3,7 @@
         <div class="grid grid-cols-8 py-2">
             <top-header />
             <left-sidebar />
+            <main-section />
 
         </div>
 
@@ -37,7 +38,8 @@ export default {
     name: 'GmailSamplePage',
     components: {
         TopHeader: defineAsyncComponent ( () => import ('@/modules/gmailSample/components/TopHeader/TopHeader.vue') ),
-        LeftSidebar: defineAsyncComponent ( () => import ('@/modules/gmailSample/components/LeftSidebar/LeftSidebar.vue') )
+        LeftSidebar: defineAsyncComponent ( () => import ('@/modules/gmailSample/components/LeftSidebar/LeftSidebar.vue') ),
+        MainSection: defineAsyncComponent ( () => import ('@/modules/gmailSample/components/MainSection/MainSection.vue') ),
     }
 
 }
