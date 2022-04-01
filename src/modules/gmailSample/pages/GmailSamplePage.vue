@@ -2,6 +2,7 @@
     <div class="bg-[#111111] min-h-screen text-white">
         <div class="grid grid-cols-8 py-2">
             <top-header />
+            <left-sidebar />
 
         </div>
 
@@ -36,6 +37,7 @@ export default {
     name: 'GmailSamplePage',
     components: {
         TopHeader: defineAsyncComponent ( () => import ('@/modules/gmailSample/components/TopHeader/TopHeader.vue') ),
+        LeftSidebar: defineAsyncComponent ( () => import ('@/modules/gmailSample/components/LeftSidebar/LeftSidebar.vue') )
     }
 
 }
