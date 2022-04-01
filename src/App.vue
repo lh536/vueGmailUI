@@ -1,5 +1,5 @@
 <template>
-    <!-- <custom-component /> -->
+    <gmail-sample-page />
     <!-- <router-view /> -->
 
 
@@ -9,12 +9,12 @@
 <script>
 import { defineAsyncComponent } from "vue"
 
-  export default {
-    name: 'App',
-    components: {
-        // CustomComponent: defineAsyncComponent( () => import ('@/modules/shared/components/Navbar.vue') ),
-    },
-  }
+export default {
+  name: 'App',
+  components: {
+    GmailSamplePage: defineAsyncComponent ( () => import ('@/modules/gmailSample/pages/GmailSamplePage.vue') ),
+  },
+}
 
 </script>
 
