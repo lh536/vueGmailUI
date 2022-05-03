@@ -1,6 +1,16 @@
 <template>
+    <div class="flex justify-between w-full py-2 border-b border-[#2E2E2E]">
+        <div class="flex max-w-3xl w-full">
+            <search-field />
+        </div>
+        <div class="flex items-center">
+            <user-status-indicator />
+            <upper-right-options />
+            <avatar-image />
+        </div>
+    </div>
 
-    <div class="col-span-7">
+    <div class="col-span-7 hidden">
         <!-- 3 MIDDLE CENTER OPTIONS MENU -->
         <div class="col-span-7">
             <div class="flex border-b border-[#2E2E2E] items-center h-10 space-x-3 text-[#E9E9E9] py-6">
@@ -219,8 +229,17 @@
 
 
 <script>
+
+import { defineAsyncComponent } from 'vue'
+
     export default {
-        name: 'MainSection'
+        name: 'MainSection',
+        components: {
+            SearchField: defineAsyncComponent ( () => import ('@/modules/gmailSample/components/MainSection/SearchField.vue') ),
+            UserStatusIndicator: defineAsyncComponent ( () => import ('@/modules/gmailSample/components/MainSection/UserStatusIndicator.vue') ),
+            UpperRightOptions: defineAsyncComponent ( () => import ('@/modules/gmailSample/components/MainSection/UpperRightOptions.vue') ),
+            AvatarImage: defineAsyncComponent ( () => import ('@/modules/gmailSample/components/MainSection/AvatarImage.vue') ),
+        }
     }
 
 </script>

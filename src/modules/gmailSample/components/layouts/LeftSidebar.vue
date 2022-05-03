@@ -1,13 +1,12 @@
 <template>
-    <aside class="col-span-1">
+    <aside class="w-64">
+        <logo-section />
 
         <!-- 3 COMPOSE MENU -->
-        <div class="flex items-center">
-            <button
-                class="flex justify-between items-center flex-grow group hover:bg-[#414141] h-10 rounded-full rounded-l-none pl-1 mr-2 py-4">
+        <div class="flex items-center hidden">
+            <button class="flex justify-between items-center flex-grow group hover:bg-[#414141] h-10 rounded-full rounded-l-none pl-1 mr-2 py-4">
                 <span class="flex items-center space-x-2">
-                    <span
-                        class="hover:bg-[#676767] h-9 w-5 rounded-md transition duration-200 flex justify-center items-center">
+                    <span class="hover:bg-[#676767] h-9 w-5 rounded-md transition duration-200 flex justify-center items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 relative z-10" viewBox="0 0 20 20"
                             fill="currentColor">
                             <path fill-rule="evenodd"
@@ -33,7 +32,7 @@
 
 
         <!-- 3 LEFT MENU BAR -->
-        <div class="flex flex-col items-start text-sm min-h-full">
+        <div class="flex flex-col items-start text-sm min-h-full hidden">
 
             <button
                 class="w-full flex justify-between items-center bg-[#595959] rounded-r-full font-bold py-2 px-4 mr-4">
@@ -297,12 +296,11 @@
 
     </aside>
 
-
 </template>
 
 
 <script>
-
+import { defineAsyncComponent } from "vue"
 const compose = document.querySelector('#compose');
 
 compose.addEventListener('mouseenter', () => {
@@ -316,7 +314,10 @@ compose.addEventListener('mouseleave', () => {
 
 
     export default {
-        name: 'LeftSidebar'
+        name: 'LeftSidebar',
+        components: {
+            LogoSection: defineAsyncComponent ( () => import ('@/modules/gmailSample/components/LeftSidebar/LogoSection.vue') )
+        }
     }
 
 </script>

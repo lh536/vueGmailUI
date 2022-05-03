@@ -1,31 +1,27 @@
 <template>
+<span class="text-red-500 font-semibold sm:hidden">XS</span>
+<span class="text-red-500 font-semibold hidden sm:block md:hidden">SM</span>
+<span class="text-red-500 font-semibold hidden md:block lg:hidden">MD</span>
+<span class="text-red-500 font-semibold hidden lg:block xl:hidden">LG</span>
+<span class="text-red-500 font-semibold hidden xl:block 2xl:hidden">XL</span>
+<span class="text-red-500 font-semibold hidden 2xl:block">2XL</span>
     <div class="bg-[#111111] min-h-screen text-white">
-        <div class="grid grid-cols-8 py-2">
+        <div class="grid grid-cols-8 py-2 hidden">
             <top-header />
             <left-sidebar />
             <main-section />
-
         </div>
 
-        <!-- <div class="bg-blue-300">HEADER</div>
 
         <div class="flex">
-            <div class="hidden">
-              HIDDEN
-            </div>
+            <aside class="w-72">
+                <left-sidebar />
+            </aside>
 
-            <div class="min-w-min bg-yellow-400">LH
-              <div>1</div>
-              <div>2</div>
-              <div>3</div>
-              <div>4</div>
-            </div>
-
-            <div class="bg-pink-200 w-full">
-                <div class="w-full bg-pink-200">RH-TOP</div>
-                <div class="w-full bg-pink-200">RH-MAIN</div>
-            </div>
-        </div> -->
+            <main class="w-full">
+                <main-section />
+            </main>
+        </div>
 
     </div>
 </template>
@@ -37,9 +33,8 @@ import { defineAsyncComponent } from "vue"
 export default {
     name: 'GmailSamplePage',
     components: {
-        TopHeader: defineAsyncComponent ( () => import ('@/modules/gmailSample/components/TopHeader/TopHeader.vue') ),
-        LeftSidebar: defineAsyncComponent ( () => import ('@/modules/gmailSample/components/LeftSidebar/LeftSidebar.vue') ),
-        MainSection: defineAsyncComponent ( () => import ('@/modules/gmailSample/components/MainSection/MainSection.vue') ),
+        LeftSidebar: defineAsyncComponent ( () => import ('@/modules/gmailSample/components/layouts/LeftSidebar.vue') ),
+        MainSection: defineAsyncComponent ( () => import ('@/modules/gmailSample/components/layouts/MainSection.vue') ),
     }
 
 }
