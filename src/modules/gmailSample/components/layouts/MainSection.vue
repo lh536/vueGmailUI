@@ -9,74 +9,13 @@
             <avatar-image />
         </div>
     </div>
+    <middle-center-options-menu />
+
+
 
     <div class="col-span-7 hidden">
-        <!-- 3 MIDDLE CENTER OPTIONS MENU -->
-        <div class="col-span-7">
-            <div class="flex border-b border-[#2E2E2E] items-center h-10 space-x-3 text-[#E9E9E9] py-6">
-                <!-- 3 MAIL SELECTION -->
-                <div class="flex pl-4">
-                    <div
-                        class="w-7 h-9 rounded-md flex justify-center items-center group hover:bg-[#414141] transition duration-200 hover:cursor-pointer">
-                        <input
-                            class="group-hover:bg-[#414141] group-hover:border-white group-hover:cursor-pointer bg-[#111111]"
-                            type="checkbox" name="" id="">
-                    </div>
-                    <button
-                        class="w-4 h-9 rounded-md flex justify-center items-center hover:bg-[#414141] hover:text-white transition duration-200">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 hover:text-white" viewBox="0 0 20 20"
-                            fill="currentColor">
-                            <path fill-rule="evenodd"
-                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                clip-rule="evenodd" />
-                        </svg>
-                    </button>
-                </div>
-                <!-- 3 RELOAD BUTTON -->
-                <div>
-                    <button
-                        class="w-10 h-10 rounded-full flex justify-center items-center hover:bg-[#414141] hover:text-white">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
-                        </svg>
-                    </button>
-                </div>
-                <!-- 3 MORE BUTTON -->
-                <div>
-                    <button
-                        class="w-10 h-10 rounded-full flex justify-center items-center hover:bg-[#414141] hover:text-white">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
-                        </svg>
-                    </button>
-                </div>
-                <!-- 3 PANEL MODE BUTTON -->
-                <div class="flex justify-end items-center flex-grow pr-7">
-                    <button
-                        class="w-7 h-9 rounded-md flex justify-center items-center hover:bg-[#414141] transition duration-200 hover:text-white">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" />
-                        </svg>
-                    </button>
-                    <!-- 3 DOWN ARROW BUTTON -->
-                    <button
-                        class="w-4 h-9 rounded-md flex justify-center items-center hover:bg-[#414141] hover:text-white transition duration-200">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 hover:text-white" viewBox="0 0 20 20"
-                            fill="currentColor">
-                            <path fill-rule="evenodd"
-                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                clip-rule="evenodd" />
-                        </svg>
-                    </button>
-                </div>
-            </div>
-        </div>
+
+
         <!-- 3 CONTENT -->
         <div class="col-span-7 mr-2">
             <!-- 3 UNREAD MENU, MAIL QUANTITY & OPTIONS DOTS -->
@@ -239,6 +178,7 @@ import { defineAsyncComponent } from 'vue'
             UserStatusIndicator: defineAsyncComponent ( () => import ('@/modules/gmailSample/components/MainSection/UserStatusIndicator.vue') ),
             UpperRightOptions: defineAsyncComponent ( () => import ('@/modules/gmailSample/components/MainSection/UpperRightOptions.vue') ),
             AvatarImage: defineAsyncComponent ( () => import ('@/modules/gmailSample/components/MainSection/AvatarImage.vue') ),
+            MiddleCenterOptionsMenu: defineAsyncComponent ( () => import ('@/modules/gmailSample/components/MainSection/MiddleCenterOptionsMenu.vue') ),
         }
     }
 
