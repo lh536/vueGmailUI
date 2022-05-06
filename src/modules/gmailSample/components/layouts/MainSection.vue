@@ -10,6 +10,7 @@
         </div>
     </div>
     <middle-center-options-menu />
+    <information-section />
 
 
 
@@ -49,6 +50,7 @@
                     </div>
                 </div>
             </div>
+
             <!-- 3 CENTRAL MAIL CONTENT TABLE -->
             <table class="table-fixed w-full">
                 <!-- <thead>
@@ -179,6 +181,7 @@ import { defineAsyncComponent } from 'vue'
             UpperRightOptions: defineAsyncComponent ( () => import ('@/modules/gmailSample/components/MainSection/UpperRightOptions.vue') ),
             AvatarImage: defineAsyncComponent ( () => import ('@/modules/gmailSample/components/MainSection/AvatarImage.vue') ),
             MiddleCenterOptionsMenu: defineAsyncComponent ( () => import ('@/modules/gmailSample/components/MainSection/MiddleCenterOptionsMenu.vue') ),
+            InformationSection: defineAsyncComponent ( () => import ('@/modules/gmailSample/components/MainSection/InformationSection.vue') ),
         }
     }
 
