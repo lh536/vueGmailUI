@@ -6,12 +6,6 @@
 <span class="text-red-500 font-semibold hidden xl:block 2xl:hidden">XL</span>
 <span class="text-red-500 font-semibold hidden 2xl:block">2XL</span>
     <div class="bg-[#111111] min-h-screen text-white">
-        <div class="grid grid-cols-8 py-2 hidden">
-            <top-header />
-            <left-sidebar />
-            <main-section />
-        </div>
-
 
         <div class="flex">
             <aside class="w-72">
