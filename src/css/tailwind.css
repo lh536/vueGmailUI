@@ -18,11 +18,12 @@
     [multiple],
     textarea,
     select {
-        @apply w-full border border-gray-300 rounded-lg shadow-md shadow-indigo-200 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500;
+        @apply w-full border border-gray-300 rounded-lg shadow-sm focus:border-white focus:ring-white;
     }
 
     [type='checkbox'],
     [type='radio'] {
-        @apply h-5 w-5 rounded border-gray-300 text-rose-500 focus:ring-rose-500;
+        /* @apply h-5 w-5 rounded border-gray-300 text-rose-500 focus:ring-rose-500; */
+        @apply rounded-sm text-transparent focus:ring-0 checked:bg-transparent checked:ring-1 checked:ring-[#E9E9E9];
     }
 }

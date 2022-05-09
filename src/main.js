@@ -4,5 +4,5 @@ import router from "@/router/router";
 import './css/tailwind.css'
 
 createApp(App)
-    .use(router)
+    // .use(router)
     .mount('#app')
