@@ -5,7 +5,7 @@
             <div class="flex space-x-4 ml-4 items-center">
                 <span>
                     <svg role="img" class="h-5 w-5">
-                        <use xlink:href="icons/iconSet.svg#inbox"></use>
+                        <use xlink:href="/icons/iconSet.svg#inbox"></use>
                     </svg>
                 </span>
                 <span>Inbox</span>
@@ -18,7 +18,7 @@
             <div class="flex space-x-4 ml-4 items-center">
                 <span>
                     <svg role="img" class="h-5 w-5">
-                        <use xlink:href="icons/iconSet.svg#starred"></use>
+                        <use xlink:href="/icons/iconSet.svg#starred"></use>
                     </svg>
                 </span>
                 <span>Starred</span>
@@ -31,7 +31,7 @@
             <div class="flex space-x-4 ml-4 items-center">
                 <span>
                     <svg role="img" class="h-5 w-5">
-                        <use xlink:href="icons/iconSet.svg#snoozed"></use>
+                        <use xlink:href="/icons/iconSet.svg#snoozed"></use>
                     </svg>
                 </span>
                 <span>Snoozed</span>
@@ -44,7 +44,7 @@
             <div class="flex space-x-4 ml-4 items-center">
                 <span class="">
                     <svg role="img" class="h-5 w-5">
-                        <use xlink:href="icons/iconSet.svg#important"></use>
+                        <use xlink:href="/icons/iconSet.svg#important"></use>
                     </svg>
                 </span>
                 <span>Important</span>
@@ -57,7 +57,7 @@
             <div class="flex space-x-4 ml-4 items-center">
                 <span class="transform rotate-90">
                     <svg role="img" class="h-5 w-5">
-                        <use xlink:href="icons/iconSet.svg#sent"></use>
+                        <use xlink:href="/icons/iconSet.svg#sent"></use>
                     </svg>
                 </span>
                 <span>Sent</span>
@@ -70,7 +70,7 @@
             <div class="flex space-x-4 ml-4 items-center">
                 <span>
                     <svg role="img" class="h-5 w-5">
-                        <use xlink:href="icons/iconSet.svg#drafts"></use>
+                        <use xlink:href="/icons/iconSet.svg#drafts"></use>
                     </svg>
                 </span>
                 <span>Drafts</span>
@@ -83,7 +83,7 @@
             <div class="flex space-x-4 ml-4 items-center">
                 <span>
                     <svg role="img" class="h-5 w-5">
-                        <use xlink:href="icons/iconSet.svg#allMail"></use>
+                        <use xlink:href="/icons/iconSet.svg#allMail"></use>
                     </svg>
                 </span>
                 <span>All Mail</span>
@@ -96,7 +96,7 @@
             <div class="flex space-x-4 ml-4 items-center">
                 <span>
                     <svg role="img" class="h-5 w-5">
-                        <use xlink:href="icons/iconSet.svg#more"></use>
+                        <use xlink:href="/icons/iconSet.svg#more"></use>
                     </svg>
                 </span>
                 <span>More</span>

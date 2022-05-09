@@ -5,7 +5,7 @@
             <span class="flex items-center space-x-2">
                 <span class="hover:bg-[#676767] h-9 w-5 rounded-md transition duration-200 flex justify-center items-center cursor-pointer">
                     <svg role="img" class="h-4 w-4">
-                        <use xlink:href="icons/iconSet.svg#chevronDown"></use>
+                        <use xlink:href="/icons/iconSet.svg#chevronDown"></use>
                     </svg>
                 </span>
                 <span class="text-sm font-semibold">Meet</span>
@@ -17,7 +17,7 @@
                 <div class="flex space-x-4 ml-4 items-center">
                     <span>
                         <svg role="img" class="h-6 w-6">
-                            <use xlink:href="icons/iconSet.svg#newMeeting"></use>
+                            <use xlink:href="/icons/iconSet.svg#newMeeting"></use>
                         </svg>
                     </span>
                     <span>New meeting</span>
@@ -30,7 +30,7 @@
                 <div class="flex space-x-4 ml-4 items-center">
                     <span>
                         <svg role="img" class="h-6 w-6">
-                            <use xlink:href="icons/iconSet.svg#joinMeeting"></use>
+                            <use xlink:href="/icons/iconSet.svg#joinMeeting"></use>
                         </svg>
                     </span>
                     <span>Join meeting</span>

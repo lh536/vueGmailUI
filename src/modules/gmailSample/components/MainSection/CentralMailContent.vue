@@ -18,7 +18,7 @@
                         <div class="flex justify-center items-center -space-x-4 relative">
                             <button class="w-5 h-5 flex justify-end items-center">
                                 <svg role="img" class="h-5 w-4 invisible group-hover:visible relative z-10">
-                                    <use xlink:href="icons/iconSet.svg#sixDots"></use>
+                                    <use xlink:href="/icons/iconSet.svg#sixDots"></use>
                                 </svg>
                             </button>
                             <div class="w-10 h-10 rounded-full flex justify-center items-center hover:bg-[#595959] transition duration-200 hover:cursor-pointer group">
@@ -29,7 +29,7 @@
                         <button class="w-10 h-10 rounded-full flex justify-center items-center hover:bg-[#595959]">
                             <span>
                                 <svg role="img" class="h-5 w-5">
-                                    <use xlink:href="icons/iconSet.svg#starred"></use>
+                                    <use xlink:href="/icons/iconSet.svg#starred"></use>
                                 </svg>
                             </span>
                         </button>
@@ -37,7 +37,7 @@
                         <button class="w-10 h-10 rounded-full flex justify-center items-center hover:bg-[#595959]">
                             <span>
                                 <svg role="img" class="h-5 w-5">
-                                    <use xlink:href="icons/iconSet.svg#important"></use>
+                                    <use xlink:href="/icons/iconSet.svg#important"></use>
                                 </svg>
                             </span>
                         </button>
@@ -56,22 +56,22 @@
                         <div class="hidden group-hover:flex -mr-2">
                             <button class="w-10 h-10 rounded-full flex justify-center items-center hover:bg-[#595959] hover:text-white">
                                 <svg role="img" class="h-5 w-5">
-                                    <use xlink:href="icons/iconSet.svg#archive"></use>
+                                    <use xlink:href="/icons/iconSet.svg#archive"></use>
                                 </svg>
                             </button>
                             <button class="w-10 h-10 rounded-full flex justify-center items-center hover:bg-[#595959] hover:text-white">
                                 <svg role="img" class="h-5 w-5">
-                                    <use xlink:href="icons/iconSet.svg#delete"></use>
+                                    <use xlink:href="/icons/iconSet.svg#delete"></use>
                                 </svg>
                             </button>
                             <button class="w-10 h-10 rounded-full flex justify-center items-center hover:bg-[#595959] hover:text-white">
                                 <svg role="img" class="h-5 w-5">
-                                    <use xlink:href="icons/iconSet.svg#markAsRead"></use>
+                                    <use xlink:href="/icons/iconSet.svg#markAsRead"></use>
                                 </svg>
                             </button>
                             <button class="w-10 h-10 rounded-full flex justify-center items-center hover:bg-[#595959] hover:text-white">
                                 <svg role="img" class="h-5 w-5">
-                                    <use xlink:href="icons/iconSet.svg#snoozed"></use>
+                                    <use xlink:href="/icons/iconSet.svg#snoozed"></use>
                                 </svg>
                             </button>
                         </div>

@@ -7,7 +7,7 @@
                     <button class="absolute inset-y-0 left-0 flex items-center sm:ml-2">
                         <span class="flex justify-center items-center w-8 h-8 sm:w-10 sm:h-10 rounded-full hover:bg-[#535354]">
                             <svg role="img" class="w-5 h-5">
-                                <use xlink:href="icons/iconSet.svg#search"></use>
+                                <use xlink:href="/icons/iconSet.svg#search"></use>
                             </svg>
                         </span>
                     </button>
@@ -15,7 +15,7 @@
                     <button class="absolute inset-y-0 right-0 hidden sm:flex items-center transform rotate-90 sm:mr-3">
                         <span class="flex justify-center items-center rounded-full w-8 h-8 sm:w-10 sm:h-10 hover:bg-[#535354]">
                             <svg role="img" class="w-7 h-7 text-inherit">
-                                <use xlink:href="icons/iconSet.svg#adjustments"></use>
+                                <use xlink:href="/icons/iconSet.svg#adjustments"></use>
                             </svg>
                         </span>
                     </button>

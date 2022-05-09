@@ -7,7 +7,7 @@
             <span class="flex items-center space-x-2">
                 <span class="hover:bg-[#676767] h-9 w-5 rounded-md transition duration-200 flex justify-center items-center">
                     <svg role="img" class="h-4 w-4 relative z-10">
-                        <use xlink:href="icons/iconSet.svg#chevronDown"></use>
+                        <use xlink:href="/icons/iconSet.svg#chevronDown"></use>
                     </svg>
                 </span>
                 <span class="text-sm font-semibold">Mail</span>
@@ -18,7 +18,7 @@
                 <span class="flex items-center justify-center border border-[#5E6267] hover:bg-[#3C4043] hover:border-none w-10 h-10 rounded-full">
 
                     <svg role="img" class="h-5 w-5">
-                        <use xlink:href="icons/iconSet.svg#pencil"></use>
+                        <use xlink:href="/icons/iconSet.svg#pencil"></use>
                     </svg>
 
                 </span>

@@ -5,7 +5,7 @@
         <button class="flex justify-between items-center hover:bg-[#414141] rounded-md font-semibold px-2.5 py-1 mx-2 transition duration-200 my-1">
             <div class="flex space-x-2 items-center">
                 <svg role="img" class="h-5 w-5 text-[#B0B0B0] hover:text-white">
-                    <use xlink:href="icons/iconSet.svg#informationChevron"></use>
+                    <use xlink:href="/icons/iconSet.svg#informationChevron"></use>
                 </svg>
                 <span>Unread</span>
             </div>
@@ -19,7 +19,7 @@
             <div>
                 <button class="w-10 h-10 rounded-full flex justify-center items-center hover:bg-[#414141] hover:text-white transition duration-200">
                     <svg role="img" class="h-5 w-5">
-                        <use xlink:href="icons/iconSet.svg#threeDotsVertical"></use>
+                        <use xlink:href="/icons/iconSet.svg#threeDotsVertical"></use>
                     </svg>
                 </button>
             </div>

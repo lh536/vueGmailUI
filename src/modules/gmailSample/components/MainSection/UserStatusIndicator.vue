@@ -3,7 +3,7 @@
         <div class="w-2 h-2 bg-[#1E8E3E] rounded-full ring-white ring-1"></div>
         <span class="pl-2 pr-1">Active</span>
         <svg role="img" class="w-4 h-4">
-            <use xlink:href="icons/iconSet.svg#chevronDown"></use>
+            <use xlink:href="/icons/iconSet.svg#chevronDown"></use>
         </svg>
     </button>
 </template>

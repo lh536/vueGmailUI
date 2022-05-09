@@ -9,7 +9,7 @@
                 </div>
                 <button class="w-4 h-9 rounded-md flex justify-center items-center hover:bg-[#414141] hover:text-white transition duration-200">
                     <svg role="img" class="h-4 w-4 hover:text-white">
-                        <use xlink:href="icons/iconSet.svg#chevronDown"></use>
+                        <use xlink:href="/icons/iconSet.svg#chevronDown"></use>
                     </svg>
                 </button>
             </div>
@@ -18,7 +18,7 @@
                 <button class="w-10 h-10 rounded-full flex justify-center items-center hover:bg-[#414141] hover:text-white">
 
                     <svg role="img" class="h-5 w-5">
-                        <use xlink:href="icons/iconSet.svg#reload"></use>
+                        <use xlink:href="/icons/iconSet.svg#reload"></use>
                     </svg>
 
                 </button>
@@ -28,7 +28,7 @@
                 <button class="w-10 h-10 rounded-full flex justify-center items-center hover:bg-[#414141] hover:text-white">
 
                     <svg role="img" class="h-5 w-5">
-                        <use xlink:href="icons/iconSet.svg#threeDotsVertical"></use>
+                        <use xlink:href="/icons/iconSet.svg#threeDotsVertical"></use>
                     </svg>
 
                 </button>
@@ -38,7 +38,7 @@
                 <button class="w-7 h-9 rounded-md flex justify-center items-center hover:bg-[#414141] transition duration-200 hover:text-white">
 
                     <svg role="img" class="h-5 w-5">
-                        <use xlink:href="icons/iconSet.svg#rooms"></use>
+                        <use xlink:href="/icons/iconSet.svg#rooms"></use>
                     </svg>
 
                 </button>
@@ -46,7 +46,7 @@
                 <button class="w-4 h-9 rounded-md flex justify-center items-center hover:bg-[#414141] hover:text-white transition duration-200">
 
                     <svg role="img" class="h-4 w-4 hover:text-white">
-                        <use xlink:href="icons/iconSet.svg#chevronDown"></use>
+                        <use xlink:href="/icons/iconSet.svg#chevronDown"></use>
                     </svg>
 
                 </button>
