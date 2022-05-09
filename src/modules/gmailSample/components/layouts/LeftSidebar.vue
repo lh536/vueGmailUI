@@ -1,5 +1,5 @@
 <template>
-    <aside class="w-64">
+    <aside class="w-64 min-h-full flex flex-col">
         <logo-section />
         <compose-menu />
         <left-option-menu />

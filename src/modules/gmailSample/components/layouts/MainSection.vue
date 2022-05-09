@@ -4,7 +4,7 @@
             <div class="flex max-w-3xl w-full">
                 <search-field />
             </div>
-            <div class="flex items-center">
+            <div class="flex items-center pr-4">
                 <user-status-indicator />
                 <upper-right-options />
                 <avatar-image />

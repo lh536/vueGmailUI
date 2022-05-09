@@ -7,7 +7,7 @@
 <span class="text-red-500 font-semibold hidden 2xl:block">2XL</span>
     <div class="bg-[#111111] min-h-screen text-white">
 
-        <div class="flex">
+        <div class="flex min-h-screen">
             <aside class="w-72">
                 <left-sidebar />
             </aside>

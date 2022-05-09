@@ -3,7 +3,7 @@
     <div class="">
         <div class="flex border-b border-[#2E2E2E] items-center h-10 space-x-3 text-[#E9E9E9] py-6">
             <!-- 3 MAIL SELECTION -->
-            <div class="flex pl-4">
+            <div class="flex pl-3.5">
                 <div class="w-7 h-9 rounded-md flex justify-center items-center group hover:bg-[#414141] transition duration-200 hover:cursor-pointer">
                     <input class="group-hover:bg-[#414141] group-hover:border-white group-hover:cursor-pointer bg-[#111111]" type="checkbox" name="" id="">
                 </div>

@@ -1,6 +1,6 @@
 <template>
     <!-- 3 COMPOSE MENU -->
-    <div class="flex items-center">
+    <div class="flex items-center border-b border-[#2E2E2E]">
         <button class="flex justify-between items-center flex-grow group hover:bg-[#414141] h-10 rounded-full rounded-l-none pl-1 mr-2 py-6">
 
             <!-- CHEVRON DOWN & BUTTON TEXT -->
